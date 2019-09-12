@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import { StyleSheet, View, Text, TouchableOpacity } from 'react-native';
  
 export default class HomeActivity extends Component {
-  static navigationOptions = {
+    static navigationOptions = {
+    title: 'Search',
     //To hide the NavigationBar from current Screen
     header: null
   };
