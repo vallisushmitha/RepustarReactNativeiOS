@@ -27,13 +27,7 @@ export default class SignInScreen extends React.Component {
         title: 'SignIn',
         header: null
     };
-
-    // FunctionToClickSignIn = () => {
-    //     this.signInUser
-    //     this.props.navigation.push('Search');
-        
-    // }
-
+    
     render() {
         return (
             <View style={{ flex: 1, flexDirection: 'column' }}>
